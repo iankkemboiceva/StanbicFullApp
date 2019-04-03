@@ -55,6 +55,41 @@ android:visibility="gone"
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
+                android:layout_weight="10"
+                android:layout_marginTop="-5dp"
+                android:paddingBottom="5dp"
+                android:id="@+id/depo"
+                android:orientation="horizontal"
+                android:background="@drawable/rectangle367"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/group5"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="30dp"
+                    />
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="2"
+                    android:layout_marginLeft="-15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textSize="18sp"
+                        android:textColor="@color/white"
+                        android:layout_centerHorizontal="true"
+                        android:text="Deposit"
+                        android:paddingRight="44dp"
+                        /></RelativeLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
                 android:layout_marginTop="0dp"
                 android:id="@+id/lintrans"
                 android:paddingBottom="3dp"
@@ -88,46 +123,6 @@ android:visibility="gone"
                         android:text="Transfer"
 
                         /></RelativeLayout>
-            </LinearLayout>
-
-            <LinearLayout
-                android:id="@+id/bills"
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="10"
-
-                android:layout_marginTop="-5dp"
-                android:background="@drawable/rectangle369"
-                android:orientation="horizontal"
-                android:paddingBottom="5dp">
-
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:layout_marginLeft="30dp"
-
-                    android:src="@drawable/approve_invoice" />
-
-                <RelativeLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:layout_marginLeft="-15dp"
-                    android:layout_marginRight="15dp"
-                    android:layout_weight="2">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_alignParentTop="true"
-                        android:layout_centerHorizontal="true"
-                        android:layout_gravity="center"
-                        android:paddingRight="44dp"
-                        android:text="Pay Bills"
-                        android:textColor="@color/white"
-                        android:textSize="18sp" />
-                </RelativeLayout>
             </LinearLayout>
 
             <LinearLayout
@@ -170,41 +165,8 @@ android:visibility="gone"
                 </RelativeLayout>
             </LinearLayout>
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="10"
-                android:layout_marginTop="-5dp"
-                android:paddingBottom="5dp"
-                android:id="@+id/depo"
-                android:orientation="horizontal"
-                android:background="@drawable/rectangle367"
-                >
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/group5"
-                    android:layout_gravity="center"
-                    android:layout_marginLeft="30dp"
-                    />
-                <RelativeLayout
-                    android:layout_width="wrap_content"
-                    android:layout_gravity="center"
-                    android:layout_weight="2"
-                    android:layout_marginLeft="-15dp"
-                    android:layout_marginRight="15dp"
-                    android:layout_height="wrap_content">
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:textSize="18sp"
-                        android:textColor="@color/white"
-                        android:layout_centerHorizontal="true"
-                        android:text="Deposit"
-                        android:paddingRight="44dp"
-                        /></RelativeLayout>
-            </LinearLayout>
+
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
@@ -241,12 +203,55 @@ android:visibility="gone"
                         /></RelativeLayout>
             </LinearLayout>
             <LinearLayout
+                android:id="@+id/bills"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="10"
+
+                android:layout_marginTop="-5dp"
+                android:background="@drawable/rectangle369"
+                android:orientation="horizontal"
+                android:paddingBottom="5dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="30dp"
+
+                    android:src="@drawable/approve_invoice" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="-15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_weight="2">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_gravity="center"
+                        android:paddingRight="44dp"
+                        android:text="Pay Bills"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+                </RelativeLayout>
+            </LinearLayout>
+
+
+
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_marginTop="-5dp"
                 android:layout_weight="10"
                 android:paddingBottom="5dp"
                 android:id="@+id/opacc"
+                android:visibility="gone"
                 android:orientation="horizontal"
                 android:background="@drawable/rectangle370"
                 >

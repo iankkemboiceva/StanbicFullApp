@@ -326,7 +326,7 @@ Pop();
 
 
 
-            startActivity(new Intent(getActivity(), CashDepoActivity.class));
+            startActivity(new Intent(getActivity(), CashDepoTransActivity.class));
 
         }
         if (view.getId() == R.id.btn2) {
@@ -345,7 +345,7 @@ Pop();
                     .setActionBarTitle("Transfer");
             fragmentTransaction.commit();*/
 
-            startActivity(new Intent(getActivity(), FTMenuActivity.class));
+            startActivity(new Intent(getActivity(), CashDepoTransActivity.class));
 
         }
         if (view.getId() == R.id.btn3) {
@@ -467,7 +467,7 @@ Pop();
             ((FMobActivity) getActivity())
                     .setActionBarTitle(title);*/
 
-            startActivity(new Intent(getActivity(), CashDepoActivity.class));
+            startActivity(new Intent(getActivity(), CashDepoTransActivity.class));
 
         }
         if (view.getId() == R.id.lintrans) {
@@ -482,7 +482,7 @@ Pop();
             ((FMobActivity) getActivity())
                     .setActionBarTitle(title);*/
 
-            startActivity(new Intent(getActivity(), FTMenuActivity.class));
+            startActivity(new Intent(getActivity(), CashDepoTransActivity.class));
 
         }
         if (view.getId() == R.id.rl3) {
@@ -498,7 +498,7 @@ Pop();
                     .setActionBarTitle(title);*/
 
 
-            startActivity(new Intent(getActivity(), FTMenuActivity.class));
+            startActivity(new Intent(getActivity(), CashDepoTransActivity.class));
 
         }
         if (view.getId() == R.id.withd) {
