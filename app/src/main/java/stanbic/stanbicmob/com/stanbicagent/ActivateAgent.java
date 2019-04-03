@@ -148,7 +148,7 @@ String mlat;
         pDialog.setCancelable(false);
         if (isGooglePlayServicesAvailable()) {
             mFusedLocationProviderClient = getFusedLocationProviderClient(this);
-            //
+            //Ray Test
           //  startLocationUpdates();
             /*createLocationRequest();
             mGoogleApiClient = new GoogleApiClient.Builder(this)
